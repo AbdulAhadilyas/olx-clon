@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+}
+.nav-top {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 10px 20px;
+}
+.olx-logo {
+  margin-left: 10px;
+  width: 50px;
+  fill: #3a77ff;
+}
+.icon-2 {
+  display: flex;
+  margin-right: 20px;
+}
+.icon-2 svg {
+  padding: 15px;
+  width: 100px;
+}
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+}
+.country {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+.country svg {
+  padding: 10px;
+}
+.country select {
+  width: 200px;
+  background: transparent;
+  outline: none;
+  border: none;
+  align-items: center;
+  height: 45px;
+  font-size: 1rem;
+  appearance: none;
+}
+.country img{
+  width: 30px;
+  height: 30px;
+}
+
+.search-box {
+  width: 57%;
+  border: 1px SOLID black;
+  display: flex;
+  align-items: center;
+  height: 45px;
+  border-radius: 4px;
+  justify-content: space-between;
+}
+.search-box input {
+  align-items: center;
+  padding-left: 40px;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  display: flex;
+  width: 100%;
+}
+.search-box .colour {
+  width: 42px;
+  height: 45px;
+  border: 1px solid #002f34;
+  background-color: #002f34;
+}
+.search-box svg {
+  width: 25px;
+  height: 25px;
+  margin: 11px 10px 0px 10px;
+  fill: white;
+  background: transparent;
+}
+.login-mall{
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+.login-mall svg{
+  width: 80%;
+  height: 80%;
+  margin-left: 20px;
+}
+.login-mall p{
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-bottom: 2px solid black;
+}
+.login-mall h3{
+  position: absolute;
+  margin-left: 110px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.list{
+  display: flex;
+  margin-left: 11px;
+  align-items: center;
+}
+.list li{
+  list-style-type: none;
+}
+.list li a{
+  padding-left: 13px;
+  text-decoration: none;
+  color: gray;
+}
+
+.list img{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 10px;
+}
+.cat{
+  padding-bottom: 20px;
+}
+.banner{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden
+}
+
+
+.heading{
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.contant{
+margin-left: 35px;
+cursor: pointer;
+}
+.contant-img img{
+  width: 300px;
+  height: 150px;
+}
+.text-icon{
+  display: flex;
+  padding-top: 8px;
+  padding-left: 10px;
+}
+.text-icon img{
+  padding-left: 110px;
+}
+.contant h3{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.location{
+  padding-top: 18px;
+  padding-left: 10px;
+  font-size: 0.7rem;
+}
+
